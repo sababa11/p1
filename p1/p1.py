@@ -1,3 +1,5 @@
 import requests
 
-print("Importing Requests Version:%s" % requests.__version__)
+def print_dependencies():
+    print("Importing Requests Version:%s" % requests.__version__)
+    return True
